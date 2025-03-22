@@ -1,1 +1,14 @@
+name: Mon premier workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  dire-bonjour:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dire Bonjour
+        run: echo "Bonjour tout le monde !"
 
